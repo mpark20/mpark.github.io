@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.7e7aca6d.css",
-    "main.js": "/react-gh-pages/static/js/main.d2de4d01.js",
-    "static/js/787.1ed0c42c.chunk.js": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js",
-    "static/media/snoopy-spin.gif": "/react-gh-pages/static/media/snoopy-spin.5679225fdc7f0369b1f2.gif",
-    "static/media/Poppins-Light.ttf": "/react-gh-pages/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
-    "static/media/Poppins-Regular.ttf": "/react-gh-pages/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/kiiroitori-march.gif": "/react-gh-pages/static/media/kiiroitori-march.1bb00d100304c8b41c31.gif",
-    "static/media/background.png": "/react-gh-pages/static/media/background.0fc41c4102b7bb5cb70f.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.7e7aca6d.css.map": "/react-gh-pages/static/css/main.7e7aca6d.css.map",
-    "main.d2de4d01.js.map": "/react-gh-pages/static/js/main.d2de4d01.js.map",
-    "787.1ed0c42c.chunk.js.map": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/mpark.github.io/static/css/main.d6c4dfc1.css",
+    "main.js": "/mpark.github.io/static/js/main.648663d1.js",
+    "static/js/787.1ed0c42c.chunk.js": "/mpark.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/snoopy-spin.gif": "/mpark.github.io/static/media/snoopy-spin.5679225fdc7f0369b1f2.gif",
+    "static/media/Poppins-Light.ttf": "/mpark.github.io/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/mpark.github.io/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/kiiroitori-march.gif": "/mpark.github.io/static/media/kiiroitori-march.1bb00d100304c8b41c31.gif",
+    "static/media/background.png": "/mpark.github.io/static/media/background.0fc41c4102b7bb5cb70f.png",
+    "index.html": "/mpark.github.io/index.html",
+    "main.d6c4dfc1.css.map": "/mpark.github.io/static/css/main.d6c4dfc1.css.map",
+    "main.648663d1.js.map": "/mpark.github.io/static/js/main.648663d1.js.map",
+    "787.1ed0c42c.chunk.js.map": "/mpark.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e7aca6d.css",
-    "static/js/main.d2de4d01.js"
+    "static/css/main.d6c4dfc1.css",
+    "static/js/main.648663d1.js"
   ]
 }
