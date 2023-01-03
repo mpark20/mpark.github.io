@@ -1,0 +1,40 @@
+.win-wrapper {
+    width: 100%; 
+    background-color: white;
+    overflow: hidden;
+    margin: 20px auto;
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 2px 1px 1px grey;
+    border-radius: 8px;
+}
+.mini-nav {
+    background-color: #ededed;
+    font-size: 14px; 
+    color: grey;
+    padding: 10px; 
+    
+}
+.mini-nav li {
+    margin: 10px 5px;
+    padding: 0 5px; 
+}
+.mini-nav li:hover {
+    color: black; 
+    font-weight: bold; 
+    transition: color linear 0.3s; 
+}
+.exps {
+    border-left: 1.5px solid grey; 
+}
+
+.blurb {
+    padding: 20px;
+}
+.active-alt {
+    color: black; 
+    font-size: 16px;
+    border-bottom: none; 
+    font-weight: bold; 
+    border-bottom-color: black;
+}

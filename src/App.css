@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-block: 0; 
 }
 .content {
-  padding-top: 70px; 
+  padding-top: 50px; 
 }
 .btn {
   padding: 2% 4%;
@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
   transition: opacity linear 0.3s; 
 }
 /*HOME**********************************************/
+
 #intro {
   background-color: #F6F5F0;
   width: 40%; 
@@ -42,12 +43,11 @@ h1, h2, h3, h4, h5, h6, p {
   box-shadow: 4px 2px 2px 1px grey;
 }
 
-.active {
-  font-weight: bold;  
+li a.active {
+  border-bottom: solid white
 }
 .nav-container {
   overflow: hidden;
-  position: fixed; 
   top: 0;
   width: 100%;
   z-index: 1;
@@ -60,18 +60,104 @@ ul {
 }
 .nav li {
   float: left;
-  
+}
+.nav li:hover {
+  margin-top: 4px; 
+  transition: margin linear 0.3s;
 }
 .nav li a, .nav li p {
   display: block;
   text-align: left;
-  padding: 20px;
+  margin: 20px; 
   text-decoration: none; 
   color: white;
+  font-weight: bold; 
 }
 a {
   text-decoration: none; 
   color: inherit;
 }
 
-/*RESUME**********************************************/
+.nav  li.socials:hover {
+  margin-top: 0;
+  opacity: 0.5; 
+  transition: opacity linear 0.3s;
+}
+
+.mobile {
+  display:none;  
+}
+/*ABOUT**********************************************/
+.container {
+  width: 60%; 
+  background-color: #F6F5F0;
+  border-radius: 8px; 
+  box-shadow: 4px 2px 2px grey; 
+  margin: 20px auto; 
+  padding: 30px; 
+  overflow: hidden;
+}
+.text-image-wrap {
+  display: grid; 
+  grid-template-columns: 3fr 2fr;
+}
+.img-contain {
+  width: 90%;
+  border-radius: 6px; 
+}
+
+/*EXPERIENCE**************************************/
+
+
+@media screen and (max-width: 900px)  {
+  .nav {
+    display: none; 
+  }
+  
+  .mobile {
+    display:block; 
+  }
+  
+  #menu-icon:hover {
+    opacity: 0.5; 
+    transition: opacity linear 0.3s;
+    margin: initial; 
+  }
+  #nav-dropdown {
+    display:none; 
+    position: absolute;
+    padding: 20px;
+    background-color: wheat;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+  }
+  #nav-dropdown li {
+    margin: 10px 0;
+  }
+  #nav-dropdown li a:hover {
+    border-bottom: solid white;
+    opacity: 0.5;
+  }
+  #x-btn {
+    font-size: 20px; 
+  }
+  .container, #intro {
+    width: 80%; 
+  }
+  #intro {
+    margin: 5% auto; 
+  }
+  
+  .text-image-wrap {
+    display: block;  
+  }
+  .img-contain {
+    width: 70%;
+    margin: 20px auto; 
+  }
+  .image-contain iframe {
+    height: 300px; 
+  }
+
+}
