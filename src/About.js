@@ -26,7 +26,7 @@ const About = () => {
             <br/>
             <p>
                As a medical scribe, I've started to see how electronic medical records are a key example of how technology is improving the 
-               efficiency of health systems. If I am assigned a project at DUBvelopers, I'd be interested in working on something related 
+               efficiency of health systems. As I grow my skillset, I am interested in working on something related 
                to this topic!
             </p>
         </div>
