@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.58ba8f41.css",
-    "main.js": "/static/js/main.621ddfe5.js",
+    "main.css": "/static/css/main.7c58767c.css",
+    "main.js": "/static/js/main.933d40e7.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/snoopy-spin.gif": "/static/media/snoopy-spin.5679225fdc7f0369b1f2.gif",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -9,12 +9,12 @@
     "static/media/kiiroitori-march.gif": "/static/media/kiiroitori-march.1bb00d100304c8b41c31.gif",
     "static/media/background.png": "/static/media/background.0fc41c4102b7bb5cb70f.png",
     "index.html": "/index.html",
-    "main.58ba8f41.css.map": "/static/css/main.58ba8f41.css.map",
-    "main.621ddfe5.js.map": "/static/js/main.621ddfe5.js.map",
+    "main.7c58767c.css.map": "/static/css/main.7c58767c.css.map",
+    "main.933d40e7.js.map": "/static/js/main.933d40e7.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58ba8f41.css",
-    "static/js/main.621ddfe5.js"
+    "static/css/main.7c58767c.css",
+    "static/js/main.933d40e7.js"
   ]
 }
