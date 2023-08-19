@@ -45,7 +45,7 @@ const App = () => {
             <li><NavLink to="/">home</NavLink></li>
             <li><NavLink to="/about">about</NavLink></li>
             <li><NavLink to="/experience">experience</NavLink></li>
-            <li><NavLink to="/projects">projects</NavLink></li>
+            {/* <li><NavLink to="/projects">projects</NavLink></li> */}
             <li><a href="https://github.com/mpark20" >GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/molly-park-17879824b/" >LinkedIn</a></li>
           </ul>

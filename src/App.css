@@ -6,15 +6,21 @@
   font-family: poppinsLight;
   src: url('./fonts/Poppins-Light.ttf');
 }
+:root {
+  --heading-font: poppins;
+  --body-font: poppins; 
+  --body-font-light: poppinsLight;
+}
 body {
   background-color: #EDE7DD; 
-  font-family: poppins;
+  font-family: var(--body-font);
   background-image: url("./images/background.png");
   background-repeat: repeat-y;
   background-size: cover;
 }
 h1, h2, h3, h4, h5, h6, p {
   margin-block: 0; 
+  font-family: var(--heading-font);
 }
 .content {
   padding-top: 50px; 
@@ -25,12 +31,15 @@ h1, h2, h3, h4, h5, h6, p {
   border: none;
   box-shadow: 2px 1px 1px grey;
   border-radius: 3px;
-  font-family: poppinsLight;  
+  font-family: var(--body-font-light);  
 }
 .btn:hover {
   opacity: 0.5; 
-  
   transition: opacity linear 0.3s; 
+}
+.responsive-wrapper {
+  width: 60%;
+  margin: auto;  
 }
 /*HOME**********************************************/
 
@@ -115,6 +124,8 @@ a {
 /*EXPERIENCE**************************************/
 
 
+
+/*Narrow Screens*/
 @media screen and (max-width: 900px)  {
   .nav {
     display: none; 
@@ -164,6 +175,9 @@ a {
   }
   .image-contain iframe {
     height: 300px; 
+  }
+  .responsive-wrapper {
+    width: 90%; 
   }
 
 }
