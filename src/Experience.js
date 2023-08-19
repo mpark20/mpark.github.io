@@ -2,43 +2,57 @@ import Window from "./components/Window/Window";
 
 const Experience = () => {
     
-    let items0 = [
+    const workExperience = [
         {
-            "title": "Web Developer",
-            "organization": "UW SEAL",
-            "time": "Sep 2022 - present", 
-            "desc": "Maintaining and improving websites for the Sensors, Energy, and Automation Lab at UW", 
-            "skills": "HTML/CSS, JS, Git, Figma"
+            "title": "STEP Intern",
+            "organization": "Google",
+            "time": "Jun 2023 - Sep 2023", 
+            "desc": "Using full stack technologies, I increased the efficiency of internal legal workflows by implementing filtering logic for Google’s contract management system. I wrote a technical design doc, delivered beyond project goals by adding UI to update filters, and wrote extensive tests to ensure that the tool meets modern web accessibility standards.", 
+            "skills": "Java, JUnit, TypeScript, Protocol Buffers, Remote Procedure Calls, Closure Templates"
         },
         {
             "title": "Software Development Intern",
-            "organization": "Phenomena Learning",
-            "time": "Nov 2022 - present", 
-            "desc": "Designing and developing interactive, browser-based educational experiences for K-12 students and educators", 
+            "organization": "Phenomena",
+            "time": "Nov 2022 - Feb 2023", 
+            "desc": "Phenomena is an EdTech startup that provides interactive, browser-based educational experiences for K-12 students and educators. I fully designed and developed 5 kid-friendly experiences that are now published on their platform: Projectile Motion, Light Refraction, Electric Fields, Passive & Active Transport, Binary Search", 
             "skills": "Design, Problem Solving, Creativity, Teaching"
         },
         {
             "title": "Medical Scribe",
             "organization": "Evergreen Health",
-            "time": "Aug 2022 - present", 
-            "desc": "Using the Epic EMR system to record physician notes during patient visits in outpatient neurology.", 
+            "time": "Aug 2022 - June 2023", 
+            "desc": "I the Epic EMR system to record physician notes during patient visits in outpatient neurology. To get certified by Scribe America, I intensively studied medical terminology, healthcare regulations, and electronic medical record systems.", 
             "skills": "Critical Thinking, Medical Terminology, Electronic Medical Records"
         },
     ]
-    let items1 = [
+    const activities = [
         {
-            "title": "Coding Instructor",
-            "organization": "UW Society of Women Engineers",
-            "time": "Oct 2022 - present", 
-            "desc": "Planning and teaching introductory Python courses for students in local middle schools", 
-            "skills": "Leadership, Collaboration, Organization, Repl.it"
+            "title": "Member",
+            "organization": "Interactive Intelligence",
+            "time": "Sep 2022 - May 2023", 
+            "desc": "I2 is UW’s student led machine learning and neuroscience organization. I completed their Intro Neuro/AI course in Spring 2023, and am hoping to join a research project this autumn!", 
+            "skills": "NumPy, MatPlotLib, Linear Algebra, Calculus"
         },
         {
-            "title": "Hospital Volunteer",
-            "organization": "Swedish Medical Center",
-            "time": "Apr 2021 - Aug 2021", 
-            "desc": "Volunteered 164+ hours at Swedish Medical Center Seattle in the Neuro Telemetry and Orthopedics departments. Responsibilities include assisting nurses and CNAs, delivering lab samples, and navigating patients and their families.", 
-            "skills": ""
+            "title": "Web Developer",
+            "organization": "SEAL",
+            "time": "Sep 2022 - May 2023", 
+            "desc": "As part of the lab's DevOps group, I developed web features for the Sensors, Energy, and Automation Lab at UW. This included populating all publications on the lab website, automating the process of adding new entries, and improving functionality of the UW Industrial Assessments Center website.", 
+            "skills": "HTML/CSS, JS, Git, Figma, WordPress"
+        },
+        {
+            "title": "Web Developer",
+            "organization": "DUBvelopers",
+            "time": "Jan 2023 - Jun 2023", 
+            "desc": "Was part of a 4-member coding team that built the website for the beloved Seattle cafe, Leon Coffee House.", 
+            "skills": "React, Git, Teamwork"
+        },
+        {
+            "title": "Coding Instructor",
+            "organization": "UW SWE",
+            "time": "Oct 2022 - present", 
+            "desc": "As part of the outreach committee, I taught weekly Python courses for students in local middle schools. I also sent outreach emails for the org's educational programs and volunteered at K-12 STEM events", 
+            "skills": "Leadership, Collaboration, Organization, repl.it"
         },
     ]
 
@@ -46,7 +60,7 @@ const Experience = () => {
 
     return(
         <>
-        <div style={{width:"60%", margin: "auto"}}>
+        <div className="content-wrapper">
             <h1>education</h1>
             <div style={{backgroundColor: "white", borderRadius: "8px", boxShadow: "2px 1px 1px grey", padding: "20px", margin: "20px 0"}}>
                 <h3>University of Washington Seattle</h3>
@@ -57,7 +71,7 @@ const Experience = () => {
                     <p><i>Computer Science</i></p>
                     <br/>
                     <h4>Coursework:</h4>
-                    <p><i>Computer Programming II & III, Matrix Algebra, Medical Ethics, Introductory Biology</i></p>
+                    <p><i>Software Design & Implementation, Foundations of Computing, Linear Algebra, Biology, Medical Ethics </i></p>
                     <br/>
                     <h4>Clubs:</h4> 
                     <p><i>DUBvelopers, WiC, COM^2, SWE, UW Figure Skating</i></p>
@@ -66,8 +80,8 @@ const Experience = () => {
             </div>
             
         </div>
-        <Window title="work" experiences={items0} default={items0[0]}/>
-        <Window title="volunteer" experiences={items1} default={items1[0]}/>
+        <Window title="work" experiences={workExperience} default={workExperience[0]}/>
+        <Window title="activities" experiences={activities} default={activities[0]}/>
         </>
     )
 }

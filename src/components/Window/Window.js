@@ -20,7 +20,7 @@ const Window = (props) => {
     }
 
     return(
-        <div style={{width:"60%", margin: "auto"}}>
+        <div className="content-wrapper">
         
         <h1>{props.title}</h1>
         <div className="win-wrapper">

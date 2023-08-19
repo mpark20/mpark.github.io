@@ -19,15 +19,11 @@ const About = () => {
         <div className="container">
             <h2>interests</h2>
             <p>
-                I'm currently a computer science major at the Allen School, but I'm also hoping to learn more about the life 
-                sciences during my time at university. I'm interested in exploring how technology can be applied to sectors such as healthcare 
-                and biological research. 
+                I'm currently a computer science major at the <a target="_blank" href='https://www.cs.washington.edu/'>Paul G. Allen School</a> with an interest in the life sciences. I've had some experience with web development through jobs and clubs, but I am trying to pick up as many technologies as possible!
             </p>
             <br/>
             <p>
-               As a medical scribe, I've started to see how electronic medical records are a key example of how technology is improving the 
-               efficiency of health systems. As I grow my skillset, I am interested in working on something related 
-               to this topic!
+                Currently exploring the relationship between neuroscience and computing through the <a target="_blank" href='https://interactive-intelligence.github.io/'>I2 student group</a> and <a target="_blank" href='https://www.coursera.org/learn/computational-neuroscience'>this Coursera class</a>. 
             </p>
         </div>
         <div className="container">
@@ -38,7 +34,7 @@ const About = () => {
                 <div>
                     <p>
                         I'm a big foodie! My first experience with HTML/CSS was 
-                        actually a <a href="https://momolikesfood.com" target="_blank">recipe website </a>back in 2021. In my free time, I enjoy 
+                        actually a recipe website back in 2021. In my free time, I enjoy 
                         posting good eats, dorm cooking attempts, and cafe hopping trips on my <a href="https://instagram.com" target="_blank">Instagram</a>. 
                     </p>
                 </div>
